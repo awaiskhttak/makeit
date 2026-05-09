@@ -1,0 +1,18 @@
+// Auth Action Types
+export const AUTH_REQUEST = 'AUTH_REQUEST';
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const AUTH_FAILURE = 'AUTH_FAILURE';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+
+// Workout Action Types
+export const FETCH_WORKOUTS_REQUEST = 'FETCH_WORKOUTS_REQUEST';
+export const FETCH_WORKOUTS_SUCCESS = 'FETCH_WORKOUTS_SUCCESS';
+export const FETCH_WORKOUTS_FAILURE = 'FETCH_WORKOUTS_FAILURE';
+export const START_WORKOUT = 'START_WORKOUT';
+export const END_WORKOUT = 'END_WORKOUT';
+
+// Diet Action Types
+export const FETCH_MEALS_REQUEST = 'FETCH_MEALS_REQUEST';
+export const FETCH_MEALS_SUCCESS = 'FETCH_MEALS_SUCCESS';
+export const FETCH_MEALS_FAILURE = 'FETCH_MEALS_FAILURE';
+export const ADD_MEAL = 'ADD_MEAL';
