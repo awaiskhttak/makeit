@@ -1,0 +1,46 @@
+# React Native / Expo
+node_modules/
+.expo/
+.expo-shared/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/logs/
+
+# Database
+*.db
+*.sqlite
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build
+build/
+dist/
